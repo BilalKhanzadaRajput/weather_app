@@ -208,10 +208,10 @@ class WeatherApp extends StatelessWidget {
                                           children: [
                                             time.text.make(),
                                             Image.asset(
-                                              "assets/weather/${hourlyData.list[index].weather![0].icon}.png",
+                                              "assets/weather/${hourlyData.list[index].weather[0].icon}.png",
                                               width: 80,
                                             ),
-                                            "${hourlyData.list![index].main!.temp}$degree".text.make(),
+                                            "${hourlyData.list[index].main.temp}$degree".text.make(),
                                           ],
                                         ),
                                       );

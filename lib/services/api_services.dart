@@ -1,8 +1,8 @@
 import 'package:http/http.dart' as http;
 import 'package:weather_app/models/current_weather_model.dart';
-import 'package:weather_app/models/hourly_weather_model.data.dart';
 
 import '../consts/strings.dart';
+import '../models/hourly_weather_model.data.dart';
 
 
 var link = "https://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitude&appid=$apiKey&units=metric";
