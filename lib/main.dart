@@ -275,14 +275,14 @@ class WeatherApp extends StatelessWidget {
                                       RichText(
                                         text: TextSpan(children: [
                                           TextSpan(
-                                            text: "38$degree /",
+                                            text: "${data.main.feelsLike}$degree /",
                                             style: TextStyle(
                                                 color: theme.primaryColor,
                                                 fontFamily: "poppins",
                                                 fontSize: 16),
                                           ),
                                           TextSpan(
-                                            text: "26$degree ",
+                                            text: "${data.main.humidity}$degree",
                                             style: TextStyle(
                                                 color: theme.iconTheme.color,
                                                 fontFamily: "poppins",
